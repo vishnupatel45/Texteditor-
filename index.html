@@ -17,38 +17,31 @@
             var textArea = document.getElementById("txtArea").style;
             if (size == 1) {
                 document.querySelector("textarea").style.fontSize = "15px";
-                document.querySelector("textarea").cols="185";
-                document.querySelector("textarea").rows="20";
+                
             }
             else if (size == 2) {
                 document.querySelector("textarea").style.fontSize = "20px";
-                document.querySelector("textarea").cols="145";
-                document.querySelector("textarea").rows="16";
+               
             }
             else if (size == 3) {
                 document.querySelector("textarea").style.fontSize = "25px";
-                document.querySelector("textarea").cols="117";
-                document.querySelector("textarea").rows="14";
+                
             }
             else if (size == 4) {
                 document.querySelector("textarea").style.fontSize = "30px";
-                document.querySelector("textarea").cols="98";
-                document.querySelector("textarea").rows="11";
+                
             }
             else if (size == 5) {
                 document.querySelector("textarea").style.fontSize = "35px";
-                document.querySelector("textarea").cols="83";
-                document.querySelector("textarea").rows="10";
+               
             }
             else if (size == 6) {
                 document.querySelector("textarea").style.fontSize = "40px";
-                document.querySelector("textarea").cols="72";
-                document.querySelector("textarea").rows="8";
+                
             }
             else if (size == 7) {
                 document.querySelector("textarea").style.fontSize = "45px";
-                document.querySelector("textarea").cols="64";
-                document.querySelector("textarea").rows="8";
+                
             }
             document.querySelector("textarea").style.color = color;
         }
@@ -115,7 +108,7 @@
         </div>
     </div>
     <div class="bg-light border border-1 m-3 p-4">
-        <textarea name="comment" id="txtArea" cols="180" rows="20" onkeydown="textStyle()"></textarea>
+        <textarea name="comment" id="txtArea" class="w-100" rows="20" onkeydown="textStyle()"></textarea>
     </div>
 </body>
 </html>
