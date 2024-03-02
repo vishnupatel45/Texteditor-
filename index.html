@@ -57,16 +57,22 @@
             function clickItalic()
             {
                 document.getElementById("txtArea").style.fontStyle="italic"
+                document.getElementById("txtArea").style.fontWeight="normal"
+                document.getElementById("txtArea").style.fontFamily="arial"
             }
             function clickBold(){
                 document.getElementById("txtArea").style.fontWeight="bold"
+                document.getElementById("txtArea").style.fontStyle="normal"
+                document.getElementById("txtArea").style.fontFamily="arial"
             }
             function clickTimes(){
                 document.getElementById("txtArea").style.fontFamily="times"
+                document.getElementById("txtArea").style.fontWeight="normal"
+                document.getElementById("txtArea").style.fontStyle="arial"
             }
     </script>
 </head>
-<body class="form-control" style="background-color: rgb(224, 227, 229);">
+<body class="form-control" style="background-color: rgb(224, 227, 229);" style="font-style: normal;">
     File Name : <input type="text" size="11" value="vishu-patel">
     <div class="d-flex m-3 p-3 bg-light rounded">
         <div class="w-25 me-2 border border-2 rounded">
